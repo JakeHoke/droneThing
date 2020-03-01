@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
   <meta charset="utf-8">
   <title>Features - Drone Confrier</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -12,7 +10,7 @@
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700|Roboto:300,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700|Roboto:300,400,700&amp;display=swap" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,7 +32,7 @@
   ======================================================= -->
 </head>
 
-<body>
+<body data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
     
   <div class="site-wrap">
 
@@ -44,33 +42,41 @@
           <span class="icofont-close js-menu-toggle"></span>
         </div>
       </div>
-      <div class="site-mobile-menu-body"></div>
+      <div class="site-mobile-menu-body"><ul class="site-nav-wrap">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li class="active"><a href="features.html" class="nav-link">Features</a></li>
+                <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                
+                <li class="has-children"><span class="arrow-collapse collapsed" data-toggle="collapse" data-target="#collapseItem0"></span>
+                  <a href="blog.html" class="nav-link">Blog</a>
+                  <ul class="collapse" id="collapseItem0">
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="blog-single.html" class="nav-link">Blog Sigle</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+              </ul></div>
     </div>
 
-    <header class="site-navbar js-sticky-header site-navbar-target" role="banner" >
+    <div id="sticky-wrapper" class="sticky-wrapper" style="height: 64px;"><header class="site-navbar js-sticky-header site-navbar-target" role="banner" style="width: 498.4px;">
 
       <div class="container">
         <div class="row align-items-center">
-          
+
           <div class="col-6 col-lg-2">
-            <h1 class="mb-0 site-logo"><a href="index.html" class="mb-0">SoftLand</a></h1>
+            <h1 class="mb-0 site-logo"><a href="index.html" class="mb-0">Drone Confrere</a></h1>
           </div>
 
           <div class="col-12 col-md-10 d-none d-lg-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li class="active"><a href="features.html" class="nav-link">Features</a></li>
-                <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="features.html" class="nav-link">Features</a></li>
+                <li><a href="pricing.html" class="nav-link">About Us</a></li>
+
+                <li><a href="blog.html" class="nav-link">Maps</a></li>
                 
-                <li class="has-children">
-                  <a href="blog.html" class="nav-link">Blog</a>
-                  <ul class="dropdown">
-                    <li><a href="blog.html" class="nav-link">Blog</a></li>
-                    <li><a href="blog-single.html" class="nav-link">Blog Sigle</a></li>
-                  </ul>
-                </li>
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
               </ul>
             </nav>
@@ -86,8 +92,8 @@
 
         </div>
       </div>
-      
-    </header>
+
+    </header></div>
 
 
     <main id="main">
@@ -109,8 +115,8 @@
             <div class="col-12">
               <div class="row justify-content-center">
                 <div class="col-md-7 text-center hero-text">
-                  <h1 data-aos="fade-up" data-aos-delay="">Drone Confrier</h1>
-                  <p class="mb-5" data-aos="fade-up"  data-aos-delay="100">Use cases of the product.</p>  
+                  <h1 data-aos="fade-up" data-aos-delay="" class="aos-init aos-animate">Drone Confrier</h1>
+                  <p class="mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">Use cases of the product.</p>  
                 </div>
               </div>
             </div>
@@ -128,7 +134,7 @@
               <h2 class="mb-4">Seamlessly Communicate</h2>
               <p class="mb-4">Spoken words can be immediately translated into drone commands by Flask Server.</p>
             </div>
-            <div class="col-md-6" data-aos="fade-left">
+            <div class="col-md-6 aos-init aos-animate" data-aos="fade-left">
               <img src="img/undraw_svg_2.svg" alt="Image" class="img-fluid">
             </div>
           </div>
@@ -142,7 +148,7 @@
               <h2 class="mb-4">Limited User Interaction</h2>
               <p class="mb-4">Simply requires user's face.</p>
             </div>
-            <div class="col-md-6" data-aos="fade-right">
+            <div class="col-md-6 aos-init" data-aos="fade-right">
               <img src="img/undraw_svg_3.svg" alt="Image" class="img-fluid">
             </div>
           </div>
@@ -157,7 +163,7 @@
               <h2 class="mb-4">Powerful App Design </h2>
               <p class="mb-4">Utilizes flutter speech to text API to perfectly decipher spoken words.</p>
             </div>
-            <div class="col-md-6" data-aos="fade-right">
+            <div class="col-md-6 aos-init" data-aos="fade-right">
               <img src="img/undraw_svg_4.svg" alt="Image" class="img-fluid">
             </div>
           </div>
@@ -212,7 +218,7 @@
 
         <div class="row justify-content-center text-center">
           <div class="col-md-7">
-            <p class="copyright">&copy; Copyright SoftLand. All Rights Reserved</p>
+            <p class="copyright">© Copyright SoftLand. All Rights Reserved</p>
             <div class="credits">
               <!--
                 All the links in the footer should remain intact.
@@ -242,5 +248,6 @@
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
 
-  </body>
-</html>
+  
+
+</body></html>
